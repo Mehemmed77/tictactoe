@@ -17,6 +17,9 @@ body {
 }
 
 .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     font-size: 24px;
@@ -55,4 +58,16 @@ body {
 
 .restart-button:hover {
     background-color: #45a049;
+}
+
+.x-icon,.o-icon{
+    font-size:45px;
+}
+
+.x-icon{
+    color:#2196F3;
+}
+
+.o-icon{
+    color:#f44336;
 }
