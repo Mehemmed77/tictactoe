@@ -71,3 +71,7 @@ body {
 .o-icon{
     color:#f44336;
 }
+
+.lowOpacity{
+    opacity: 0.5;
+}
